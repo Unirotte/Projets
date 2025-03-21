@@ -270,12 +270,12 @@ a {
 img.image-hebergements {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    height: 124px;
+    height: 60%;
     object-fit: cover;
 }
 
 .container-hebergements {
-    line-height: 8px;
+    line-height: 9px;
     padding-left: 15px;
 }
 
@@ -413,13 +413,22 @@ li {
 
 @media (min-width: 1025px) and (max-width: 1400px) {
 
+    .card-title {
+        font-size: 14px;
+    }
+
+    img.image-hebergements {
+
+        min-height: 60px;
+       
+    }
+
     .card-hebergements {
-        padding-bottom: 26px;
         width: 16vw;
     }
 
     .container-hebergements {
-        line-height: 15px;
+        line-height: 9px;
     }
 
 
@@ -436,6 +445,12 @@ li {
         display: flex;
         align-items: center;
         padding-top: 20px;
+    }
+
+    img.image-hebergements {
+
+        min-height: 60px;
+       
     }
 
     section.filtres-bouton {
@@ -842,9 +857,13 @@ li {
 
         border-top-left-radius: 20px;
         border-bottom-right-radius: 0px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
         height: 117px;
         width: 100%;
         object-fit: cover;
+
+        
     }
 
 
