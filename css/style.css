@@ -6,7 +6,10 @@
     }
 }
 
+html{
+font-size: 16px;
 
+}
 
 
 /****** General ***********/
@@ -412,7 +415,13 @@ li {
 /* Code rétrecissement*/
 
 @media (min-width: 1025px) and (max-width: 1400px) {
+    .container-activites {
+        display: flex;
+        height: 70px;
+        align-items: center;
+    }
 
+    
     .card-title {
         font-size: 14px;
     }
@@ -440,6 +449,14 @@ li {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+   
+    .container-activites {
+        display: flex;
+        height: 70px;
+        align-items: center;
+    }
+
+
     .section-500 {
         gap: 10px;
         display: flex;
