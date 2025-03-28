@@ -1,3 +1,5 @@
+/****** Styles généraux pour les icônes ***********/
+
 :root {
     --main-color: #0065fc;
     --main-bg-color: #f2f2f2;
@@ -14,7 +16,7 @@ html {
 
 }
 
-/****** Styles généraux pour les icônes ***********/
+
 
 .fa-solid,
 .fa-location-dot {
@@ -280,7 +282,7 @@ section.contenaire-hebergements {
 
 section.contenaire-hebergements-one {
     display: flex;
-    gap: 30px;
+    gap: 33px;
     justify-content: center;
 }
 

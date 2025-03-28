@@ -31,8 +31,6 @@
 
     }
 
-
-
 }
 
 @media (min-width: 1025px) and (max-width: 1229px) {
@@ -101,6 +99,11 @@
 
     /* hebergement */
 
+    section.contenaire-hebergements-one {
+
+        gap: 25px;
+    }
+
     img.image-hebergements {
 
         min-height: 60px;
@@ -159,8 +162,9 @@
 
     /* Hebergements And Populaires  */
 
+
     section.contenaire-hebergements-one {
-        gap: 15px;
+        gap: 18px;
     }
 
     .card-title {
@@ -288,10 +292,16 @@
 
     /* filtres */
 
+    
+
+    .checkmark {
+
+        width: 333px;}
+
     .checkbox-container {
         display: inline-flex;
         margin-bottom: 20px;
-        width: 23%;
+        width: 48%;
         padding-left: 8px;
     }
 
@@ -353,10 +363,8 @@
 
     .populaires-title {
         background-color: #f2f2f2;
-        justify-content: flex-start;
-        align-items: center;
-        gap: 75px;
         padding-top: 30px;
+        padding-right: 5%;
     }
 
     .populaires-cards .card {
@@ -422,7 +430,8 @@
     }
 }
 
-@media (max-width: 660px) and (min-width: 475px) {
+
+@media (max-width: 549px) and (min-width: 475px) {
 
     /* bouton marseille */
 
@@ -449,6 +458,7 @@
         height: 400px;
     }
 
+
     /* filtres */
 
     .checkbox-container {
@@ -472,6 +482,7 @@
 @media (max-width: 474px) and (min-width: 376px) {
 
     /* header */
+
 
     section.navigation {
         height: 390px;
@@ -499,6 +510,13 @@
     .checkbox-container {
         width: 45%;
     }
+
+    /*heberg + pop*/
+
+    .hebergements-and-populaires section {
+        margin-top: 50px;
+    }
+
 
     /* hebergement */
 
@@ -533,7 +551,12 @@
         padding-bottom: 10px;
         margin-top: 0;
     }
+
+    
 }
+
+
+
 
 @media (max-width: 375px) {
 
@@ -572,6 +595,8 @@
         padding-top: 20px;
         margin-top: 30px;
     }
+
+
 
     /*hebergement*/
 
