@@ -254,8 +254,8 @@
         padding: 1px;
         box-sizing: border-box;
         padding-bottom: 20px;
-        padding-top: 30px;
-        margin-top: 80px;
+        padding-top: 20px;
+        margin-top: 150px;
     }
 
     /*hebergement*/
@@ -474,7 +474,8 @@
     /* herberg+pop */
 
     .hebergements-and-populaires section {
-        margin-top: 30px;
+        margin-top: 50px;
+        
     }
 
 }
@@ -515,6 +516,7 @@
 
     .hebergements-and-populaires section {
         margin-top: 50px;
+        padding-top: 30px;
     }
 
 
@@ -592,7 +594,7 @@
     .hebergements-and-populaires section {
         padding: 1px;
         padding-bottom: 20px;
-        padding-top: 20px;
+        padding-top: 30px;
         margin-top: 30px;
     }
 
