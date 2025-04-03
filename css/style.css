@@ -245,6 +245,15 @@ a {
 }
 
 /****** Hebergements ***********/
+
+h3.titre-Afficherplus {
+    margin: 0px;
+}
+
+h3.titre-sections {
+    margin: 0px;
+}
+
 .hebergements {
     width: 65%;
 }
@@ -340,8 +349,8 @@ section.contenaire-hebergements-one {
 
 section#activitesMarseille {
     margin-top: 60px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 23px;
+    margin-right: 28px;
 }
 
 .card-activites {
@@ -369,6 +378,8 @@ section#activitesMarseille {
     flex-direction: row;
     gap: 30px;
     padding-top: 20px;
+    padding-left: 10px;
+    
 }
 
 /****** footer ***********/
