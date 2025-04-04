@@ -59,15 +59,15 @@ section#search {
     margin-bottom: 20px;
 }
 
-/* Filtres */
+/* filters */
 
-section.filtres-bouton {
+section.filters-button {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.bouton {
+.button {
     display: flex;
     gap: 15px;
     padding-top: 24px;
@@ -160,7 +160,7 @@ ul li {
     font-size: 16px;
 }
 
-/****** Bouton Marseille ***********/
+/****** button Marseille ***********/
 
 input {
     border: 1px solid #f2f2f2;
@@ -246,11 +246,11 @@ a {
 
 /****** Hebergements ***********/
 
-h3.titre-Afficherplus {
+h3.title-Afficherplus {
     margin: 0px;
 }
 
-h3.titre-sections {
+h3.title-sections {
     margin: 0px;
 }
 
@@ -359,7 +359,7 @@ section#activitesMarseille {
     border-radius: 20px;
 }
 
-.image-arrondie {
+.image-rounded {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 380px;

@@ -7,7 +7,7 @@
 
     /* Header*/
 
-    h3.titre-sections {
+    h3.title-sections {
         margin: 0px;
     }
 
@@ -65,7 +65,7 @@
         display: flex;
     }
 
-    h3.titre-sections {
+    h3.title-sections {
         margin: 0px;
     }
 
@@ -90,13 +90,13 @@
         padding-top: 25px;
     }
 
-    /*boutons filtres*/
+    /*buttons filters*/
 
     form {
         margin-bottom: 15px;
     }
 
-    section.filtres-bouton {
+    section.filters-button {
         display: flex;
         align-items: flex-start;
         gap: 15px;
@@ -104,7 +104,7 @@
 
     }
 
-    .bouton {
+    .button {
         padding-top: 0px;
         padding-bottom: 0px;
     }
@@ -145,7 +145,7 @@
         align-items: center;
     }
 
-    .image-arrondie {
+    .image-rounded {
         height: 200px;
     }
 
@@ -179,6 +179,7 @@
 /*réteceissement*/
 @media (max-width: 910px) and (min-width: 769px) {
 
+
     /* Hebergements And Populaires  */
 
 
@@ -197,7 +198,7 @@
 
     }
 
-    /*filtres*/
+    /*filters*/
 
     .checkmark {
         width: 150px;
@@ -223,7 +224,7 @@
     }
 
 
-    section.filtres-bouton {
+    section.filters-button {
 
         padding-left: 0;
     }
@@ -309,19 +310,18 @@
         gap: 30px;
         justify-content: center;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         padding-bottom: 10px;
-        margin-top: 0;
-        padding-left: 30px;
+        margin: 0px 24px;
     }
 
-    h3.titre-Afficherplus {
+    h3.title-Afficherplus {
         padding-left: 20px;
         margin: 0px;
         padding-top: 10px;
     }
 
-    /* filtres */
+    /* filters */
 
 
 
@@ -337,7 +337,7 @@
 
     }
 
-    .bouton {
+    .button {
         display: block;
 
     }
@@ -367,7 +367,7 @@
         max-width: 100%;
     }
 
-    .loupe {
+    .wen {
         background-color: var(--main-color);
         padding: 15px 16px 15px 16px;
         border-radius: 15px;
@@ -389,8 +389,7 @@
         display: flex;
         flex-direction: column;
         background-color: #f2f2f2;
-        padding-left: 30px;
-        padding-bottom: 20px;
+        padding: 0px 0px 20px 40px;
         margin-top: -15px;
     }
 
@@ -402,7 +401,7 @@
 
     .populaires-cards .card {
         display: flex;
-        width: 305%;
+        width: 308%;
         margin-top: 33px;
     }
 
@@ -430,16 +429,17 @@
         align-items: center;
         padding-top: 30px;
         margin: 0px 10px;
+        padding-left: 0px;
 
     }
 
     .card-activites {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        width: 90%;
+        width: 86%;
         border-radius: 20px;
     }
 
-    .image-arrondie {
+    .image-rounded {
         height: 141px;
     }
 
@@ -478,18 +478,29 @@
         width: 84vw;
     }
 
+    /*Activites*/
+    .populaires-cards {
+        padding: 0px 0px 20px 32px;
+
+    }
+
+    .populaires-cards .card {
+        width: 305%;
+
+    }
+
 }
 
 
 @media (max-width: 549px) and (min-width: 475px) {
 
-/* HEADER */
+    /* HEADER */
     header {
         margin-bottom: 10px;
     }
 
 
-    /* bouton marseille */
+    /* button marseille */
 
     input {
         width: 74vw;
@@ -511,7 +522,7 @@
     /* hebergement */
 
     .card-hebergements {
-        width: 83vw; 
+        width: 83vw;
     }
 
     .card-rating-hebergement {
@@ -523,8 +534,18 @@
         height: 400px;
     }
 
+    /*Activites*/
 
-    /* filtres */
+    .populaires-cards {
+        padding: 0px 0px 20px 30px;
+
+    }
+
+    .populaires-cards .card {
+        width: 306%;
+    }
+
+    /* filters */
 
     .checkbox-container {
 
@@ -614,13 +635,19 @@
         padding-bottom: 10px;
         margin-top: 0;
         padding-left: 0px;
-       
+
     }
 
+    /*Activites*/
+    .populaires-cards {
+        padding: 0px 0px 20px 20px;
+    }
+
+    .populaires-cards .card {
+        width: 306%;
+    }
 
 }
-
-
 
 
 @media (max-width: 375px) {
@@ -631,7 +658,7 @@
         margin-bottom: 0px;
     }
 
-    /*bouton marseille*/
+    /*button marseille*/
 
     input {
         width: 70vw;
@@ -720,7 +747,13 @@
 
     }
 
-    /* filtres */
+    /*Activites*/
+
+    .populaires-cards {
+        padding: 0px 0px 20px 20px;
+    }
+
+    /* filters */
 
     .checkbox-container {
         width: 46%;
