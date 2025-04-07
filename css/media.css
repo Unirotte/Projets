@@ -84,7 +84,6 @@
 
 
     .section-500 {
-        gap: 10px;
         display: flex;
         align-items: center;
         padding-top: 25px;
@@ -214,7 +213,7 @@ body {
 }
 
     header {
-        margin-bottom: 100px;
+        margin-bottom: 110px;
     }
 
     /*Nav logo+hebAct*/
@@ -224,7 +223,8 @@ body {
         margin-top: 0px;
         display: flex;
         flex-direction: column;
-        padding-left: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
 
@@ -337,7 +337,7 @@ body {
     .checkbox-container {
         display: inline-flex;
         margin-bottom: 20px;
-        width: 48%;
+        width: 44.5vw;
 
     }
 
@@ -471,9 +471,12 @@ body {
     header {
         margin-bottom: 120px;
     }
+/* FILTRES */
 
+.checkbox-container {
+    width: 45vw;
 
-
+}
 }
 
 
@@ -484,12 +487,12 @@ body {
         margin-bottom: 10px;
     }
 
+/* FILTRES */
 
-    /* button marseille */
+.checkbox-container {
+    width: 44vw;
 
-    input {
-        width: 74vw;
-    }
+}
 
     /*recherche*/
 
@@ -519,12 +522,6 @@ body {
     
     /* filters */
 
-    .checkbox-container {
-
-        display: inline-flex;
-        width: 35%;
-    }
-
     .checkmark {
         width: 125vw;
     }
@@ -550,15 +547,10 @@ body {
 
     .section-500 {
         max-width: 95vw;
-        margin-right: 10px;
+        margin-right: 0px;
         padding: 0px;
     }
 
-    /* Marseille */
-
-    input {
-        width: 67vw;
-    }
 
     /* filtre */
 
@@ -567,7 +559,7 @@ body {
     }
 
     .checkbox-container {
-        width: 45%;
+        width: 43vw;
     }
 
     /*heberg + pop*/
@@ -618,13 +610,13 @@ body {
 
     header {
 
-        margin-bottom: 0px;
+        margin-bottom: 10px;
     }
 
-    /*button marseille*/
+    /*FILTRES*/
 
-    input {
-        width: 70vw;
+    .checkbox-container {
+        width: 43vw;
     }
 
     /*recherche*/
@@ -656,11 +648,6 @@ body {
         padding-bottom: 0;
     }
 
-    /* Marseille */
-
-    input {
-        width: 67vw;
-    }
 
 
     /*mixe pop+heb*/
@@ -709,10 +696,4 @@ body {
     }
 
 
-    /* filters */
-
-    .checkbox-container {
-        width: 46%;
-
-    }
 }

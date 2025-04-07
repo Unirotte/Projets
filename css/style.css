@@ -40,12 +40,13 @@ i.fa-solid.fa-location-dot {
 #infobull {
     display: flex;
     border-radius: 100%;
-    border: 2px solid var(--main-bg-color);
-    width: 30px;
-    height: 30px;
+    border: 1px solid #D9D9D9;
+    width: 24px;
+    height: 24px;
     text-align: center;
     margin: auto;
     align-items: center;
+    justify-content: center;
 }
 
 
@@ -111,7 +112,7 @@ section.filters-button {
 /*petit texte*/
 
 .section-500 {
-    gap: 10px;
+    gap: 5px;
     display: flex;
     align-items: center;
     padding-bottom: 30px;
