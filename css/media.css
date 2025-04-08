@@ -223,8 +223,8 @@ body {
         margin-top: 0px;
         display: flex;
         flex-direction: column;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
 
@@ -330,20 +330,20 @@ body {
 
 
     .checkmark {
-
-        width: 333px;
+        width: 100%;
     }
 
     .checkbox-container {
-        display: inline-flex;
-        margin-bottom: 20px;
-        width: 44.5vw;
+        width: 45vw;
 
     }
 
     .button {
-        display: block;
-
+        display: flex;
+                gap: 10px;
+                flex-wrap: wrap;
+                justify-content: center;
+            
     }
 
     .main-container {
@@ -356,13 +356,14 @@ body {
 
     .section-500 {
         padding: 0px;
+        margin-top: 25px;
     }
 
     /*marseille Recherche*/
 
     input {
 
-        width: 80vw;
+        width: 86vw;
     }
 
     section.search,
@@ -435,7 +436,7 @@ body {
 
     .card-activites {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        width: 86%;
+        width: 84%;
         border-radius: 20px;
     }
 
@@ -471,10 +472,11 @@ body {
     header {
         margin-bottom: 120px;
     }
-/* FILTRES */
+
+    /* FILTRES */
 
 .checkbox-container {
-    width: 45vw;
+    width: 44vw;
 
 }
 }
@@ -490,7 +492,7 @@ body {
 /* FILTRES */
 
 .checkbox-container {
-    width: 44vw;
+    width: 43vw;
 
 }
 
@@ -554,16 +556,19 @@ body {
 
     /* filtre */
 
+    .button {
+    
+        gap: 10px;
+    
+    }
+
     .checkmark {
         width: 90vw;
     }
 
     .checkbox-container {
-        width: 43vw;
+        width: 41vw;
     }
-
-    /*heberg + pop*/
-
 
 
     /* hebergement */
@@ -576,6 +581,7 @@ body {
         height: 207px;
         display: flex;
         flex-direction: column;
+        width: 83vw;
     }
 
     img.image-hebergements {
@@ -600,7 +606,10 @@ body {
         padding-left: 0px;
 
     }
-
+/*Populaires*/
+.populaires-cards .card {
+    width: 83vw;
+}
 
 }
 
@@ -615,8 +624,12 @@ body {
 
     /*FILTRES*/
 
+    .button {
+        gap: 12px;
+    }
+
     .checkbox-container {
-        width: 43vw;
+        width: 41vw;
     }
 
     /*recherche*/
@@ -641,6 +654,8 @@ body {
         display: flex;
         flex-direction: column;
         margin-top: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .section-500 {
@@ -664,6 +679,12 @@ body {
     }
 
 
+/* POPULAIRE */
+
+.populaires-cards .card {
+    width: 83vw;
+}
+
 
     /*hebergement*/
 
@@ -674,6 +695,7 @@ body {
     .card-hebergements {
         display: flex;
         flex-direction: column;
+        width: 83vw;
     }
 
     img.image-hebergements {
@@ -683,7 +705,7 @@ body {
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
         height: 117px;
-        width: 88vw;
+        width: 83vw;
         object-fit: cover;
     }
 

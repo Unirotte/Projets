@@ -16,8 +16,7 @@ html {
 
 }
 
-
-
+/****** Barre Marseille ******/
 .fa-solid,
 .fa-location-dot {
     color: var(--main-color);
@@ -380,7 +379,7 @@ section#activitesMarseille {
     gap: 30px;
     padding-top: 20px;
     padding-left: 10px;
-    
+
 }
 
 /****** footer ***********/
