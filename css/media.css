@@ -327,8 +327,6 @@ body {
 
     /* filters */
 
-
-
     .checkmark {
         width: 100%;
     }
@@ -624,6 +622,8 @@ body {
 
     /*FILTRES*/
 
+
+
     .button {
         gap: 12px;
     }
@@ -633,6 +633,10 @@ body {
     }
 
     /*recherche*/
+
+    input {
+        width: 70vw;
+    }
 
     section.search,
     section#search {
