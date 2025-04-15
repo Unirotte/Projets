@@ -1,7 +1,7 @@
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
-@media (min-width: 769px) and (max-width: 1900px) {
+@media (min-width: 769px)  {
     
     button.wen .fa-magnifying-glass {
         display: none;
