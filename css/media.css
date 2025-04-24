@@ -27,6 +27,23 @@
         background-color: blue;
     }
 }
+@media (min-width: 1441px) and (max-width: 1900px) {
+
+    .hebergements-and-populaires section {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+}
+
+@media (min-width: 1400px) and (max-width: 1440px) {
+
+    .hebergements-and-populaires section {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+}
 
 @media (min-width: 1230px) and (max-width: 1400px) {
 
@@ -355,6 +372,8 @@
         padding-bottom: 30px;
         padding-top: 30px;
         margin-top: 0px;
+        padding-left: 34px;
+        padding-right: 34px;
     }
 
     /*hebergement*/
@@ -396,7 +415,6 @@
     }
 
     h3.title-Afficherplus {
-        padding-left: 5%;
         margin: 0px;
         padding-top: 10px;
     }
@@ -411,7 +429,7 @@
     }
 
     .section-title {
-        padding: 0% 5%;
+        
     }
 
     .populaires-cards {
@@ -422,7 +440,7 @@
     }
 
     .populaires-title {
-        padding: 0% 5%;
+       
     }
 
     .populaires-cards .card {
@@ -493,6 +511,10 @@
 
     }
 
+    .hebergements-and-populaires section {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
     /*Activités*/
 
     section#activitesMarseille {
@@ -523,6 +545,11 @@
         padding-top: 0px;
     }
 
+    .hebergements-and-populaires section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     /* hebergement */
 
 
@@ -545,7 +572,7 @@
     /*Activités*/
 
     section#activitesMarseille {
-        margin: 0px 47px;
+        margin: 0px 40px;
         margin-top: 40px;
     }
 }
@@ -565,12 +592,12 @@
         padding: 0px;
     }
 
-
+   
     /* filtre */
 
     .button {
 
-        gap: 10px;
+        gap: 12px;
 
     }
 
@@ -581,7 +608,6 @@
     .checkbox-container {
         width: 41vw;
     }
-
 
     /* hebergement */
 
@@ -604,6 +630,7 @@
         width: 100%;
     }
 
+
     /*Populaires*/
     .populaires-cards .card {
         width: 83vw;
@@ -612,7 +639,7 @@
     /*Activités*/
 
     section#activitesMarseille {
-        margin: 0px 40px;
+        margin: 0px 30px;
         margin-top: 40px;
     }
 
@@ -656,13 +683,15 @@
     .hebergements-and-populaires section {
         padding-top: 0px;
         margin-top: 30px;
+        padding-left: 19px;
+        padding-right: 19px;
     }
 
 
     /* POPULAIRE */
     .populaires-title {
         padding-top: 30px;
-        padding-left: 6%;
+        
     }
 
     .populaires-cards .card {
@@ -672,9 +701,6 @@
 
     /*hebergement*/
 
-    .section-title {
-        padding: 0% 6%;
-    }
     .card-rating-hebergement {
         padding-top: 0px;
     }
@@ -690,10 +716,6 @@
         border-bottom-left-radius: 0px;
         height: 117px;
         width: 100%;
-    }
-
-    h3.title-Afficherplus {
-        padding-left: 6%;
     }
 
     /*Activités*/

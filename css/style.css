@@ -120,6 +120,7 @@ form {
 
 i.fa-solid.fa-location-dot {
     background: var(--main-bg-color);
+    color: black;
     padding: 10px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
