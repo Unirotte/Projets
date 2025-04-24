@@ -45,6 +45,15 @@
 
 }
 
+@media (min-width: 1250px) and (max-width: 1400px) { 
+    .hebergements-and-populaires section {
+        padding-left: 40px;
+        padding-right: 40px;
+    
+    }
+
+}
+
 @media (min-width: 1230px) and (max-width: 1400px) {
 
     /* modification hébergement */
@@ -67,6 +76,7 @@
         width: 16vw;
     }
 }
+
 
 
 
@@ -114,7 +124,15 @@
     }
 
 }
+@media (min-width: 1026px) and (max-width: 1125px) { 
+    
+    .hebergements-and-populaires section {
+        padding-left: 20px;
+        padding-right: 20px;
+       
+    }
 
+}
 /*Tablette*/
 
 @media (max-width: 1024px) {
