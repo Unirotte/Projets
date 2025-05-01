@@ -99,7 +99,7 @@ li {
 .navigation {
     margin-top: 50px;
     display: grid;
-    gap: 10px;
+    gap: 5px;
     height: 270px;
     padding-bottom: 50px;
 }
@@ -437,6 +437,8 @@ span.footer-link {
     flex-direction: column;
     padding: 0px 0px 15px 0px;
 }
+
+
 
 
 

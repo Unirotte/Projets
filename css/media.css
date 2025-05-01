@@ -269,13 +269,14 @@
     }
 
     header {
-        margin-bottom: 110px;
+        margin-bottom: 0px;
     }
 
     /*Nav logo+hebAct*/
 
 
     .navigation {
+        margin-bottom: 120px;
         margin-top: 0px;
         display: flex;
         flex-direction: column;
@@ -343,7 +344,7 @@
 
     .section-500 {
         padding: 0px;
-        margin-top: 23px;
+        margin-top: 20px;
     }
 
     /*marseille Recherche*/
@@ -516,13 +517,10 @@
 
 @media (max-width: 665px) and (min-width: 550px) {
 
-    /* HEADER */
-
-    header {
-        margin-bottom: 120px;
-    }
-
-    /* FILTRES */
+    
+    .navigation {
+        margin-bottom: 130px;}
+   
 
     .checkbox-container {
         width: 44vw;
@@ -577,7 +575,7 @@
 
 
     .navigation {
-        height: 400px;
+        height: 300px;
     }
 
 
@@ -597,12 +595,9 @@
 
 @media (max-width: 474px) and (min-width: 376px) {
 
-    /* header */
-
-    header {
-        margin-bottom: 130px;
-    }
-
+   
+    .navigation {
+        margin-bottom: 150px; }
 
     .section-500 {
         max-width: 95vw;
@@ -681,7 +676,11 @@
     .checkbox-container {
         width: 41vw;
     }
-
+    
+    .section-500 {
+        padding: 0px;
+        margin-top: 10px;
+    }
     /*recherche*/
 
     input {
@@ -691,7 +690,6 @@
     /*Nav logo+hebAct*/
 
     .navigation {
-        height: 380px;
         padding-left: 15px;
         padding-right: 15px;
     }
